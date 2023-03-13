@@ -1,0 +1,8 @@
+#NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en
+#mayúsculas y <n> es el número de letras que tienen el nombre.
+
+nombre =  input ("¿como te llamas? ")
+print(nombre.upper() + " tiene " + str (len(nombre)) + " letras ")
+
+
+#Upper: Convierte una cadena a mayúsculas.
