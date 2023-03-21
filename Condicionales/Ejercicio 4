@@ -5,8 +5,8 @@
 #corresponde
 
 name = input("¿Cómo te llamas? ")
-gender = input("¿Cuál es tu sexo (M o H)? ")
-if gender == "M":
+gender = input("¿Cuál es tu sexo (Masculino o Femenino)? ")
+if gender == "Masculino":
     if name.lower() < "m":
         group = "A"
     else:

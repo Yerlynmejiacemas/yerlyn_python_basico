@@ -30,7 +30,7 @@ else:
 
     nivel = ""
 
-#mostrar nivel de rendimiento
+#mostrar nivel del estudiante
 if nivel == "":
     print("Esta puntuacion no es valida 0.01")
     
