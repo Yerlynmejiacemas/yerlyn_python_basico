@@ -5,7 +5,7 @@
 #y minúsculas como quiera.
 
 
-name = input ("¿como es  tu nombre?")
+name = input ("¿como es  tu nombre? ")
 print(name.lower())
 print(name.upper())
 print(name.title())

@@ -3,5 +3,5 @@
 #introducido.
 
 nombre = input("¿Cómo te llamas? ")
-n = input("Introduce un número entero: ")
-print((nombre + "\n") * int(n))
+c = input("Introduce un número entero: ")
+print((nombre + "\c") * int(c))

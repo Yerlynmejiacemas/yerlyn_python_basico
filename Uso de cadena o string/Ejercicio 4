@@ -5,4 +5,4 @@
 
 
 tel = input (" introduce tu numero de telefono con el formato xx-xxxxxxxxx-xx:" )
-print(' el numero de tel es ',  tel[4:-3])
+print(' El numero de tel es ',  tel[4:-3])
