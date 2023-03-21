@@ -6,26 +6,21 @@ def to_decimal(n):
     Parámetros:
         - n: Es una cadena de ceros y unos.
     Devuelve:
-        El número decimal correspondiente a n.
+        El número decimal correspondiente a d.
     """
-    n = list(n)
-    n.reverse()
+    d = list(d)
+    d.reverse()
     decimal = 0
-    for i in range(len(n)):
+    for i in range(len(d)):
         decimal += int(n[i]) * 2 ** i
     return decimal
 
-def to_binary(n):
-    """Función que convierte un número decimal en binario.
-    Parámetros:
-        - n: Es un número entero.
-    Devuelve:
-        El número binario correspondiente a n.
-    """
+def to_binary(d):
+   
     binary = []
-    while n > 0:
-        binary.append(str(n % 2))
-        n //= 2
+    while d > 0:
+        binary.append(str(d % 2))
+        d //= 2
     binary.reverse()
     return ''.join(binary)
 

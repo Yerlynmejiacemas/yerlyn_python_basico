@@ -4,12 +4,7 @@
 #repetida y su frecuencia.
 
 def count_words(text):
-    """Función que cuenta el número de veces que aparece cada palabra en un texto.
-    Parámetros:
-        - text: Es una cadena de caracteres.
-    Devuelve: 
-        Un diccionario con pares palabra:frecuencia con las palabras contenidas en el texto y su frecuencia.
-    """
+   
     text = text.split()
     words = {}
     for i in text:
@@ -28,6 +23,6 @@ def most_repeated(words):
             max_freq = freq
     return max_word, max_freq
 
-text = 'La vida no fue tan justa'
+text = 'La vida no fue tan justa en la vida de yerlyn'
 print(count_words(text))
 print(most_repeated(count_words(text)))
