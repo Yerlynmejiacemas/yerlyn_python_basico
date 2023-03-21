@@ -5,11 +5,11 @@
 
 
 HARD_PASSWORD = "Elgasto**@yerlyn"
-password = input("cual es tu password?")
+password = input("Cual es tu password? ")
 
 while password != HARD_PASSWORD:
  print("password incorrecto")
- password = input("escribe tu password otra vez")
+ password = input("Escribe tu password otra vez: ")
  
-print("tu password es correcto!")
+print("Tu password es correcto! ")
 
