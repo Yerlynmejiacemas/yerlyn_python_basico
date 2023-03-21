@@ -8,6 +8,6 @@ ingresos = float(input("Cuanto es tu ingreso: "))
 
 if edad > 16 and ingresos >= 1000:
 
-    print ("tienes que cotizar")
+    print ("tienes que cotizar ")
 else:
     print("No tienes que cotizar ")

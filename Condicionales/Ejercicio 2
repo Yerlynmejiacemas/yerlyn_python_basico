@@ -4,7 +4,7 @@
 #minúsculas.
 
 
-HARD_PASSWORD = "Elgasto**@yerlyn"
+HARD_PASSWORD = "Elgasto**@yerlyn.."
 password = input("Cual es tu password? ")
 
 while password != HARD_PASSWORD:

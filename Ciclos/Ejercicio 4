@@ -4,8 +4,8 @@
 frase = input("Introduce una frase: ")
 letra = input("Introduce una letra: ")
 contador = 0
-for i in frase:
-    if i == letra:
+for y in frase:
+    if y == letra:
         contador += 1
 print("La letra '%s' aparece %2i veces en la frase '%s'." % (letra, contador, frase))
 

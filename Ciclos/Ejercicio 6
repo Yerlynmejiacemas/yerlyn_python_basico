@@ -5,7 +5,7 @@
 #asignaturas de la lista y <nota> cada una de las correspondientes notas introducidas por
 #el usuario
 
-subjects = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+subjects = ["Historia", "Física", "Química", "Matemáticas", "Lengua"]
 passed = []
 for subject in subjects:
     score = float(input("¿Qué nota has sacado en " + subject + "?"))
@@ -13,4 +13,4 @@ for subject in subjects:
         passed.append(subject)
 for subject in passed:
     subjects.remove(subject)
-print("Tienes que repetir " + str(subjects))
+print("Tienes que repetir de nuevo " + str(subjects))

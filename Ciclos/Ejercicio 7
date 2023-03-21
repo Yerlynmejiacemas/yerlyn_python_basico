@@ -4,7 +4,7 @@
 #Al final el programa debe mostrar por pantalla las asignaturas que el usuario tiene que
 #repetir.
 
-subjects = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+subjects = ["Lenguas", "Física", "Química", "Historia", "Matemáticas"]
 passed = []
 for subject in subjects:
     score = float(input("¿Qué nota has sacado en " + subject + "?"))
@@ -12,4 +12,4 @@ for subject in subjects:
         passed.append(subject)
 for subject in passed:
     subjects.remove(subject)
-print("Tienes que repetir " + str(subjects))
+print("Tienes que repetir el aula " + str(subjects))
